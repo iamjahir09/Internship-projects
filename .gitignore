@@ -62,5 +62,5 @@ logs/
 .ruff_cache/
 .pytest_cache/
 .jupyterlab-workspace
-Project_1/dataset/
-Project_1/model/
+Car colour detection/dataset/
+Car colour detection/model/
