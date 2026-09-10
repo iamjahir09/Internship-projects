@@ -65,5 +65,4 @@ logs/
 Car colour detection/dataset/
 Car colour detection/model/
 Car colour detection/dataset/
-emotion_detection/model_weights1.h5
-emotion_detection/model_weights1.h5
+emotion_detection/*.h5

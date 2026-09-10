@@ -67,7 +67,7 @@ def upload_image():
         im = ImageTk.PhotoImage(uploaded)
 
         sign_image.configure(image=im)
-        sign_image.image = im
+        setattr(sign_image, "image", im)
         label1.configure(text='')
         show_Detect_button(file_path)
     except:
@@ -76,8 +76,8 @@ def upload_image():
 upload = Button(top, text="Upload Image", command=upload_image, padx=10, pady=5)
 upload.configure(background="#364156",foreground='white',font=('arial',20,'bold'))
 upload.pack(side='bottom',pady=50)
-sign_image.pack(side='bottom', expand='True')
-label1.pack(side='bottom', expand='True')
+sign_image.pack(side='bottom', expand=True)
+label1.pack(side='bottom', expand=True)
 heading = Label(top,text='Emotion Detector',pady=20,font=('arial',25,'bold'))
 heading.configure(background='#CDCDCD',foreground="#364156")
 heading.pack()
