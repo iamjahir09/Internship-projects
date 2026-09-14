@@ -66,3 +66,14 @@ Car colour detection/dataset/
 Car colour detection/model/
 Car colour detection/dataset/
 emotion_detection/*.h5
+animal detection/model/
+animal detection/dataset/
+audio_emotion_detection/model/
+audio_emotion_detection/dataset/
+drowsiness_detection/model/
+drowsiness_detection/dataset/
+emotion_detection/model_weights1.h5
+nationality_detection/model/
+nationality_detection/dataset/
+sign_language_detection/model/
+sign_language_detection/dataset/

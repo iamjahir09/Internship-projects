@@ -272,28 +272,11 @@ if uploaded_file is not None:
                     unsafe_allow_html=True
                 )
 
-            st.markdown(
-                """
+            st.markdown("""
                 <div class="legend">
                     <b>Detection Legend</b><br><br>
-
-                    <span class="red-box">
-                        ■ Red Box
-                    </span>
-                    — Blue Car
-                    <br>
-
-                    <span class="blue-box">
-                        ■ Blue Box
-                    </span>
-                    — Other Color Car
-                    <br>
-
-                    <span class="green-box">
-                        ■ Green Box
-                    </span>
-                    — Person
+                    <span class="red-box">■ Red Box</span> - Blue Car<br>
+                    <span class="blue-box">■ Blue Box</span> - Other Color Car<br>
+                    <span class="green-box">■ Green Box</span> - Person
                 </div>
-                """,
-                unsafe_allow_html=True
-            )
+""", unsafe_allow_html=True)

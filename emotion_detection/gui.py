@@ -9,7 +9,6 @@ from PIL import Image, ImageTk
 import numpy as np
 import cv2
 
-# donwload haarcascade_frontalface_default from here "https://github.com/opencv/opencv/tree/master/data/haarcascades"
 
 
 def FacialExpressionModel(json_file, weights_file):
