@@ -1,34 +1,18 @@
-# Voice Emotion Detection
+# Audio Emotion Detection
 
-This project extends the Emotion Detection system by adding emotion detection through voice.
+This project detects emotions from voice recordings using a trained deep learning model.
 
-## Features
-
-- Upload voice notes
-- Record voice directly through the GUI
-- Detect emotions from female voices
-- Reject non-female voices
-- Display predicted emotion and confidence
-
-## Emotions
-
-- Angry
-- Disgust
-- Fear
-- Happy
-- Neutral
-- Sad
-- Surprise
-
-## Technologies
-
-- Python
-- TensorFlow/Keras
-- Librosa
-- Streamlit
-- Scikit-learn
+## Included
+- dataset/: audio samples for different emotions
+- model/: trained model and label files
+- src/voice_emotion.py: emotion prediction logic
+- gui.py: user interface for testing audio input
 
 ## Run
-
 ```bash
-python -m streamlit run gui.py
+python gui.py
+```
+
+## Notes
+- The model predicts emotions from recorded or uploaded voice clips.
+- This project is mainly for demo and learning purposes.
